@@ -1,0 +1,19 @@
+{
+  "name": "egghead-react-course",
+  "version": "0.1.0",
+  "description": "https://egghead.io/courses/the-beginner-s-guide-to-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestalmond/egghead-react-course.git"
+  },
+  "author": "James Thomas Almond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamestalmond/egghead-react-course/issues"
+  },
+  "homepage": "https://github.com/jamestalmond/egghead-react-course#readme"
+}
