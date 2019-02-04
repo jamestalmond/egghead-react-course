@@ -1,0 +1,20 @@
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@16.0.0-rc.3/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16.0.0-rc.3/umd/react-dom.production.min.js"></script>
+
+<script>
+	const rootElement = document.getElementById('root');
+	// const element = document.createElement('div');
+	// element.textContent = 'Hello world';
+	// element.className = 'comtainer';
+	// rootElement.appendChild(element);
+	const element = React.createElement(
+		'div',
+		{ className: 'container' },
+		'Foo',
+		'Bar'
+	);
+	console.log(element);
+	ReactDOM.render(element, rootElement);
+</script>
